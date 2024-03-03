@@ -128,7 +128,7 @@ ol{
     margin-top: 40px;
 
 }
-li{
+.list-container li{
     margin-top: 40px;
     line-height: 1.5;
     font-size: 16px;
@@ -147,6 +147,101 @@ li{
 .read-more:hover{
     cursor: pointer;
     background-color: darkgray;
+}
+
+.destination-container{
+    margin-top: 80px;
+}
+.dest-details-container{
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 20px;
+    color: #131318;
+}
+.container {
+    position: relative;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 150px;
+    left: 300px;
+    transform: translate(-50%, -50%);
+    color: white; 
+    font-size: 24px; 
+    font-weight: bold; 
+    text-align: center; 
+}
+
+.third-overlay {
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    transform: translate(-50%, -50%);
+    color: white; 
+    font-size: 24px; 
+    font-weight: bold; 
+    text-align: center; 
+}
+.fourth-overlay {
+    position: absolute;
+    top: 150px;
+    left: 250px;
+    transform: translate(-50%, -50%);
+    color: white; 
+    font-size: 24px; 
+    font-weight: bold; 
+    text-align: center; 
+}
+.fifth-overlay {
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    transform: translate(-50%, -50%);
+    color: white; 
+    font-size: 24px; 
+    font-weight: bold; 
+    text-align: center; 
+}
+.seventh-overlay{
+    position: absolute;
+    top: 150px;
+    left: 240px;
+    transform: translate(-50%, -50%);
+    color: white; 
+    font-size: 24px; 
+    font-weight: bold; 
+    text-align: center; 
+}
+.okta-overlay{
+    position: absolute;
+    top: 150px;
+    left: 330px;
+    transform: translate(-50%, -50%);
+    color: white; 
+    font-size: 24px; 
+    font-weight: bold; 
+    text-align: center; 
+}
+
+.first-line{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+
+.second-line{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.third-line{
+    display: flex;
+    justify-content: center;
+    gap: 115px;
 }
 
 

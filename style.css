@@ -244,6 +244,47 @@ ol{
     gap: 115px;
 }
 
+.chhose-us{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.holet-map{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: static;
+    
+}
+.hotel-container{
+    background-color: rgba(251, 181, 99, 0.05);
+    border: 1px solid orange;
+    padding: 40px;
+    border-radius: 15px;
+}
+.map-container{
+    background-color: rgba(41, 206, 246, 0.2);
+    border: 1px solid lightblue;
+    padding: 40px;
+    border-radius: 15px;
+}
+.price{
+    grid-column: .5 / span 2;
+    position: relative;
+    left: 360px;
+}
+.price-container{
+    background-color: rgba(233, 68, 68, 0.05);
+    border: 1px solid lightpink;
+    padding: 40px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+
+
+
 
 
 
